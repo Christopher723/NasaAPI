@@ -13,6 +13,9 @@
 		3AE3DF272AF477CF00A3ABC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE3DF262AF477CF00A3ABC1 /* Preview Assets.xcassets */; };
 		3AE3DF2E2AF477D900A3ABC1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 3AE3DF2D2AF477D900A3ABC1 /* .gitignore */; };
 		3AE3DF302AF477E600A3ABC1 /* key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3DF2F2AF477E600A3ABC1 /* key.swift */; };
+		3AE3DF332AF47A1C00A3ABC1 /* NasaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3DF322AF47A1C00A3ABC1 /* NasaModel.swift */; };
+		3AE3DF362AF47A3800A3ABC1 /* NasaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3DF352AF47A3800A3ABC1 /* NasaViewModel.swift */; };
+		3AE3DF382AF47A4300A3ABC1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE3DF372AF47A4300A3ABC1 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		3AE3DF262AF477CF00A3ABC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3AE3DF2D2AF477D900A3ABC1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		3AE3DF2F2AF477E600A3ABC1 /* key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = key.swift; sourceTree = "<group>"; };
+		3AE3DF322AF47A1C00A3ABC1 /* NasaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaModel.swift; sourceTree = "<group>"; };
+		3AE3DF352AF47A3800A3ABC1 /* NasaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaViewModel.swift; sourceTree = "<group>"; };
+		3AE3DF372AF47A4300A3ABC1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,9 @@
 			children = (
 				3AE3DF2F2AF477E600A3ABC1 /* key.swift */,
 				3AE3DF1F2AF477CD00A3ABC1 /* NasaAPIApp.swift */,
+				3AE3DF342AF47A2100A3ABC1 /* ViewModel */,
 				3AE3DF212AF477CD00A3ABC1 /* ContentView.swift */,
+				3AE3DF312AF47A1400A3ABC1 /* Model */,
 				3AE3DF232AF477CF00A3ABC1 /* Assets.xcassets */,
 				3AE3DF252AF477CF00A3ABC1 /* Preview Content */,
 			);
@@ -71,6 +79,23 @@
 				3AE3DF262AF477CF00A3ABC1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AE3DF312AF47A1400A3ABC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3AE3DF322AF47A1C00A3ABC1 /* NasaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3AE3DF342AF47A2100A3ABC1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3AE3DF352AF47A3800A3ABC1 /* NasaViewModel.swift */,
+				3AE3DF372AF47A4300A3ABC1 /* DataService.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AE3DF222AF477CD00A3ABC1 /* ContentView.swift in Sources */,
+				3AE3DF362AF47A3800A3ABC1 /* NasaViewModel.swift in Sources */,
 				3AE3DF302AF477E600A3ABC1 /* key.swift in Sources */,
+				3AE3DF382AF47A4300A3ABC1 /* DataService.swift in Sources */,
+				3AE3DF332AF47A1C00A3ABC1 /* NasaModel.swift in Sources */,
 				3AE3DF202AF477CD00A3ABC1 /* NasaAPIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
